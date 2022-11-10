@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "bootstrap": "^5.2.2"
-  }
+  },
+  "name": "src-sports",
+  "description": "A src sports website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "sass": "/assets/scss:/assets/css -watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zerebel/src-sports.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zerebel/src-sports/issues"
+  },
+  "homepage": "https://github.com/Zerebel/src-sports#readme"
 }
