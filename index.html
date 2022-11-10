@@ -7,21 +7,45 @@
     <title>Pentecost SRC Sports</title>
     <link rel="stylesheet" href="assets/css/output.css" />
   </head>
-  <body>
-    <div class="carousel">
-      <header>
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Register</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">New Activities</a></li>
-            <li><a href="#">Book Online</a></li>
-            <li><a href="#">Events</a></li>
-          </ul>
-        </nav>
-      </header>
-    </div>
+  <body class="bg-sky-100">
+    <header class="bg-sky-100 py-4 px-2 text-stone-900">
+      <nav class="flex justify-between items-center">
+        <!-- Logo -->
+        <div class="text-3xl text-blue-700 uppercase tracking-widest">src</div>
+        <!-- Nav Links -->
+        <ul class="hidden md:flex gap-4 text-xl">
+          <li class=""><a href="#">Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Register</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">New Activities</a></li>
+          <li><a href="#">Book Online</a></li>
+          <li><a href="#">Events</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="w-full flex justify-center items-center">
+      <!-- background -->
+      <div class="relative w-full">
+        <video
+          autoplay
+          loop
+          muted
+          poster="/assets/img/volleyball.png"
+          class="w-full">
+          <source src="assets/img/background.mp4" type="video/mp4" />
+        </video>
+        <div
+          class="absolute bg-green-100 overlay-color top-0 left-0 w-full h-full"></div>
+        <div
+          class="absolute top-0 left-0 text-2xl md:text-3xl lg:text-5xl font-bold tracking-widest text-sky-100 flex flex-col h-full justify-center items-center lg:pl-4 gap-4 uppercase">
+          <p class="">PUC SRC</p>
+          <p>Sports committee</p>
+        </div>
+      </div>
+      <section>
+        
+      </section>
+    </main>
   </body>
 </html>
