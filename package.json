@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "sass": "/assets/scss:/assets/css -watch"
+    "sass": "/assets/scss:/assets/css -watch",
+    "tail":"tailwindcss -i ./assets/css/index.css -o ./assets/css/output.css --watch"
   },
   "repository": {
     "type": "git",

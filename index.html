@@ -6,12 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pentecost SRC Sports</title>
     <link rel="stylesheet" href="assets/css/output.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700"
+      rel="stylesheet" />
   </head>
   <body class="bg-sky-100">
     <header class="bg-sky-100 py-4 px-2 text-stone-900">
       <nav class="flex justify-between items-center">
         <!-- Logo -->
-        <div class="text-3xl text-blue-700 uppercase tracking-widest">src</div>
+        <div
+          class="flex text-3xl text-blue-700 uppercase tracking-widest items-center h-fit">
+          <span>PUC</span>
+          <img src="assets/img/logo.png" alt="logo" class="w-14" />
+        </div>
         <!-- Nav Links -->
         <ul class="hidden md:flex gap-4 text-xl">
           <li class=""><a href="#">Home</a></li>
@@ -24,7 +31,7 @@
         </ul>
       </nav>
     </header>
-    <main class="w-full flex justify-center items-center">
+    <main class="w-full flex flex-col justify-center items-center">
       <!-- background -->
       <div class="relative w-full">
         <video
@@ -41,10 +48,70 @@
           class="absolute top-0 left-0 text-2xl md:text-3xl lg:text-5xl font-bold tracking-widest text-sky-100 flex flex-col h-full justify-center items-center lg:pl-4 gap-4 uppercase">
           <p class="">PUC SRC</p>
           <p>Sports committee</p>
+          <div>
+            <a
+              href=""
+              class="text-xl bg-blue-500 rounded-md p-4 hover:bg-sky-800"
+              >Register</a
+            >
+          </div>
         </div>
       </div>
-      <section>
-        
+      <section
+        class="flex justify-around w-full flex-wrap gap-4 mt-4 font-quicksand py-5">
+        <div class="card rounded-xl bg-[#86deea22] py-4 flex flex-col gap-4">
+          <!-- Image -->
+          <img
+            src="assets/img/volleyball.png"
+            alt="volleyball"
+            class="w-64 h-40 px-2 rounded-2xl" />
+          <!-- Info -->
+          <div class="text-center">
+            <p class="text-3xl text-center tracking-widest">Volleyball</p>
+            <p class="text-center tracking-wide">El-Wak Sports Stadium</p>
+            <p class="text-center">04/12/2022</p>
+            <button
+              class="bg-slate-400 text-xl text-yellow-50 p-1 mt-2 rounded-lg w-full">
+              Book Online
+            </button>
+          </div>
+        </div>
+        <div class="card rounded-xl bg-[#86deea22] py-4 flex flex-col gap-4">
+          <!-- Image -->
+          <img
+            src="assets/img/football.avif"
+            alt="volleyball"
+            class="w-64 h-40 px-2 rounded-2xl" />
+          <!-- Info -->
+          <div class="text-center">
+            <p class="text-3xl text-center tracking-widest">Football</p>
+            <p class="text-center tracking-wide">Baba Yara Sports Stadium</p>
+            <p class="text-center">14/11/2023</p>
+            <button
+              class="bg-slate-400 w-full text-xl text-yellow-50 p-1 mt-2 rounded-lg">
+              Events
+            </button>
+          </div>
+        </div>
+        <div class="card rounded-xl bg-[#86deea22] py-4 flex flex-col gap-4">
+          <!-- Image -->
+          <img
+            src="assets/img/swimming.jpg"
+            alt="volleyball"
+            class="w-64 h-40 px-2 rounded-2xl" />
+          <!-- Info -->
+          <div class="text-center">
+            <p class="text-3xl tracking-widest text-center">Swimming</p>
+            <p class="text-center tracking-wide">
+              El-Mina Olympic Sports Stadium
+            </p>
+            <p class="text-center">24/02/2023</p>
+            <button
+              class="bg-slate-400 text-xl w-full text-yellow-50 p-1 mt-2 rounded-lg">
+              Activities
+            </button>
+          </div>
+        </div>
       </section>
     </main>
   </body>

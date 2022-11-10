@@ -665,6 +665,10 @@ video {
   clear: none;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -761,12 +765,29 @@ video {
   display: none;
 }
 
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .h-full {
   height: 100%;
 }
 
+.h-40 {
+  height: 10rem;
+}
+
+.w-14 {
+  width: 3.5rem;
+}
+
 .w-full {
   width: 100%;
+}
+
+.w-64 {
+  width: 16rem;
 }
 
 .flex-shrink {
@@ -1538,6 +1559,22 @@ video {
   word-break: keep-all;
 }
 
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -1640,6 +1677,20 @@ video {
 .bg-green-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(220 252 231 / var(--tw-bg-opacity));
+}
+
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#86deea22\] {
+  background-color: #86deea22;
+}
+
+.bg-slate-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
 }
 
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
@@ -1757,6 +1808,14 @@ video {
      object-fit: scale-down;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1767,8 +1826,9 @@ video {
   padding-right: 0.5rem;
 }
 
-.pl-4 {
-  padding-left: 1rem;
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .text-left {
@@ -1827,6 +1887,10 @@ video {
   vertical-align: super;
 }
 
+.font-quicksand {
+  font-family: Quicksand, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -1835,11 +1899,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .text-2xl {
@@ -1919,12 +1978,12 @@ video {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
-.leading-10 {
-  line-height: 2.5rem;
-}
-
 .tracking-widest {
   letter-spacing: 0.1em;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
 }
 
 .text-stone-900 {
@@ -1937,6 +1996,16 @@ video {
   color: rgb(29 78 216 / var(--tw-text-opacity));
 }
 
+.text-sky-100 {
+  --tw-text-opacity: 1;
+  color: rgb(224 242 254 / var(--tw-text-opacity));
+}
+
+.text-yellow-50 {
+  --tw-text-opacity: 1;
+  color: rgb(254 252 232 / var(--tw-text-opacity));
+}
+
 .text-\[\#336699\]\/\[\.35\] {
   color: rgb(51 102 153 / .35);
 }
@@ -1944,15 +2013,6 @@ video {
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
-}
-
-.text-inherit {
-  color: inherit;
-}
-
-.text-sky-100 {
-  --tw-text-opacity: 1;
-  color: rgb(224 242 254 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -2270,6 +2330,11 @@ video {
 .content-\[\'this-is-also-valid\]-weirdly-enough\'\] {
   --tw-content: 'this-is-also-valid]-weirdly-enough';
   content: var(--tw-content);
+}
+
+.hover\:bg-sky-800:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(7 89 133 / var(--tw-bg-opacity));
 }
 
 .hover\:font-bold:hover {
