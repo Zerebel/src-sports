@@ -1,9 +1,41 @@
 main {
   .overlay-color {
-    background: linear-gradient(
-      to right,
-      #4100ff66,
-      rgba(255, 0, 232, 0.6)
-    );
+    background: linear-gradient(to right, #4100ff66, rgba(255, 0, 232, 0.6));
+  }
+}
+header {
+  .mv-line {
+    background: linear-gradient(to right blue 50%, green 50%);
+  }
+}
+
+html:not([data-scroll='0']) {
+  body {
+    header {
+      position: fixed;
+      .mv-line {
+        animation: color 3s ease-in-out 0s infinite forwards;
+        @keyframes color {
+          0% {
+            @apply bg-gradient-to-r;
+            @apply from-sky-300;
+            @apply via-orange-300;
+            @apply to-lime-300;
+          }
+          33% {
+            @apply bg-gradient-to-r;
+            @apply from-orange-300;
+            @apply via-lime-300;
+            @apply to-sky-300;
+          }
+          100% {
+            @apply bg-gradient-to-r;
+            @apply from-orange-300;
+            @apply via-lime-300;
+            @apply to-sky-300;
+          }
+        }
+      }
+    }
   }
 }

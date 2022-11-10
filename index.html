@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-scroll="0">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,14 +10,13 @@
       href="https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700"
       rel="stylesheet" />
   </head>
-  <body class="bg-sky-100">
-    <header class="bg-sky-100 py-4 px-2 text-stone-900">
-      <nav class="flex justify-between items-center">
+  <body class="">
+    <header class="bg-sky-50 text-stone-900 z-10 w-full">
+      <nav class="flex justify-between items-center px-4 w-full">
         <!-- Logo -->
         <div
-          class="flex text-3xl text-blue-700 uppercase tracking-widest items-center h-fit">
-          <span>PUC</span>
-          <img src="assets/img/logo.png" alt="logo" class="w-14" />
+          class="flex text-3xl text-blue-700 uppercase tracking-widest items-center h-fit py-1">
+          <img src="assets/img/logo.png" alt="logo" class="w-32" />
         </div>
         <!-- Nav Links -->
         <ul class="hidden md:flex gap-4 text-xl">
@@ -30,6 +29,7 @@
           <li><a href="#">Events</a></li>
         </ul>
       </nav>
+      <div class="h-1 mv-line scroll-bar"></div>
     </header>
     <main class="w-full flex flex-col justify-center items-center">
       <!-- background -->
@@ -114,5 +114,6 @@
         </div>
       </section>
     </main>
+    <script src="assets/js/index.js"></script>
   </body>
 </html>
